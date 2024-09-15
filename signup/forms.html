@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning HTML forms</h1>
+    <form >
+        <h2>Signup</h2>
+        <label>First Name</label><br>
+        <input pattern="[A-Z]{6}" title="use 6 uppercase Letters" type="text" name="firstName" placeholder="Enter your First Name" required ><br>
+        <label>Last Name</label><br>
+        <input type="text" name="lastName" placeholder="Last Name"  required><br>
+        <label> Phone Number</label><br>
+        <input type="number" name="phoneNumber"><br>
+        <label>Email</label><br>
+        <input type="email" name="email" ><br>
+        <label>password</label><br>
+        <input  type="password" name="password"><br>
+        <input style="margin-top: 10px;" type="date" name="birthDay">
+        <h3>Select your gender</h3>
+        <input type="radio"  name="gender" value="female" >Female<br>
+        <input type="radio"  name="gender" value="male" >Male<br>
+        <h4> Select the color</h4>
+        <select name="color">
+            <option > Select colors..</option>
+            <option value = "red">Red</option>
+            <option value = "orange">Orange</option>
+            <option value = "green">Green</option>
+            <option value = "blue">Blue</option>
+        </select><br>
+        <input type="week">
+
+     
+
+        comment<textarea name="comment" rows="10" cols="30" put your comment here></textarea>
+        <h4>Select the languages you speak</h4>
+        <input type="checkbox" name="kinyarwanda" >Kinyarwanda<br>
+        <input type="checkbox" name="English" value="English">English<br>
+        <input type="checkbox" name="kinyarwanda" value="kinyarwanda">Kinyarwanda<br>
+        <input type="checkbox" name="kinyarwanda" value="kinyarwanda">Kinyarwanda<br>
+        <h4>Enter you cv</h4>
+        <input type="file" name="file" value="file"><br>
+        <input type="reset">
+        <input type="button" onclick="alert('finished signing up')" value="click here">
+        <input type="submit" style="margin-top: 20px;" type="button" value="submit">
+    </form>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+        </svg>
+</body>
+</html>
