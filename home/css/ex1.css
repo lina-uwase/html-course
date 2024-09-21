@@ -1,0 +1,16 @@
+.div1 + p{
+ color: blue;
+}
+
+p ~ span{
+    color: #323ca8;     
+}
+
+a:hover{
+    color: red;
+    background-color: blue;
+}
+
+
+
+
